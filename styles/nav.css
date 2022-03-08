@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+nav {
+  z-index: 2;
+  color: white;
+  background: orangered;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.brand {
+  font-size: xx-large;
+  flex: 2;
+  cursor: pointer;
+}
+.options {
+  font-size: x-large;
+  align-items: center;
+  display: flex;
+  flex: 1.5;
+  justify-content: flex-end;
+  gap: 50px;
+  /* border: 1px solid; */
+}
+
+.options li {
+  cursor: pointer;
+  list-style: none;
+}
+.dropdown {
+  text-align: left;
+  border: 5px solid orangered;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 20px;
+  position: absolute;
+  color: orangered;
+  top: 55px;
+  width: 250px;
+  background: white;
+}
+.signupForm {
+  right: 5px;
+}
+.loginForm {
+  right: 60px;
+}
+.recipeOfDay {
+  right: 180px;
+}
+.recipeOfDay img {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.profile {
+  text-align: left;
+  color: gray;
+  width: 320px;
+  right: 5px;
+}
+.profile p {
+  margin: 10px 0;
+}
+.profile b {
+  color: orangered;
+}
+button {
+  margin-top: 8px;
+  width: 100%;
+  background: orangered;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.dropdown input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 10px;
+}
+textarea {
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
