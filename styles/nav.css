@@ -9,6 +9,8 @@ nav {
   padding: 10px 25px;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 .brand {
   font-size: xx-large;
